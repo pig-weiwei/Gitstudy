@@ -1,0 +1,106 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+.load_frame{
+	width: 980px;
+	padding: 0 auto;
+}
+
+.load_title{
+	text-align: center;
+}
+
+.userform{
+	width: 555px;
+	margin: 0 0 50px;
+	border-right: 1px dashed #ccc
+}
+
+.userform form{
+	width:445px;
+}
+
+.form_wrap{
+	overflow: hidden;
+}
+
+.formtext_motice{
+	color: #17E440;
+	font-weight: 700;
+	font-size: 16px;
+	width:90px;
+	height: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+	float: left;
+	line-height: 50px;
+	text-align: right;
+}
+
+.formtext{
+	float:left;
+	width:290px;
+	height:50px;
+	padding:0 20px;
+	margin-top: 20px;
+	border:1px solid #17E440;
+	background:#fff;
+	position: relative;
+}
+
+.formtext .text{
+	width:290px;
+	height:30px;
+	line-height:30px;
+	padding:10px 0;
+	border:0px;
+	outline:none;
+	background:0 0;
+	font-size:14px;
+	color:#000000;
+	position:absolute;
+}
+
+.formBtn{
+	width:332px;
+	height:50px;
+	line-height:50px;
+	margin-left: 110px;
+	margin-top: 20px;
+	border: 0px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #17E440;
+	cursor: pointer;
+	display: block;
+	font-weight:700px;
+	text-align: center;
+}
+
+.formtextWord{
+	font-weight:700px;
+	font-size:16px;
+	margin-top:10px;
+	margin-right:20px;
+	height:50px;
+	line-height:50px;
+	text-align: right;
+}
